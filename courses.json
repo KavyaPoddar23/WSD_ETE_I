@@ -1,0 +1,62 @@
+[
+    {
+        "courseId": "C101",
+        "title": "Introduction to Web Development",
+        "instructor": "John Doe",
+        "duration": "10 hours",
+        "rating": 4.5,
+        "category": "Web Development",
+        "price": "$50",
+        "enrolled": "2500"
+    },
+    {
+        "courseId": "C102",
+        "title": "Advanced JavaScript",
+        "instructor": "Jane Smith",
+        "duration": "8 hours",
+        "rating": 4.8,
+        "category": "Web Development",
+        "price": "$60",
+        "enrolled": "1500"
+    },
+    {
+        "courseId": "C103",
+        "title": "Data Science Basics",
+        "instructor": "Emily Johnson",
+        "duration": "12 hours",
+        "rating": 4.2,
+        "category": "Data Science",
+        "price": "$70",
+        "enrolled": "2000"
+    },
+    {
+        "courseId": "C104",
+        "title": "Machine Learning 101",
+        "instructor": "Michael Brown",
+        "duration": "15 hours",
+        "rating": 4.6,
+        "category": "Data Science",
+        "price": "$80",
+        "enrolled": "1800"
+    },
+    {
+        "courseId": "C105",
+        "title": "Introduction to Python",
+        "instructor": "Sarah Wilson",
+        "duration": "10 hours",
+        "rating": 4.7,
+        "category": "Programming",
+        "price": "$55",
+        "enrolled": "3000"
+    },
+    {
+        "courseId": "C106",
+        "title": "Full Stack Development",
+        "instructor": "James Davis",
+        "duration": "20 hours",
+        "rating": 4.9,
+        "category": "Web Development",
+        "price": "$90",
+        "enrolled": "1200"
+    }
+]
