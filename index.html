@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Courses</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="courses.html">Course Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container"></div>
+        <h1>Book Catalogue</h1>
+        
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search by title..">
+            <select id="sort">
+                <option value="">Sort by</option>
+                <option value="title">Sort by Title</option>
+                <option value="author">Sort by Author</option>
+                <option value="description">Sort by Description</option>
+                <option value="publisher">Sort by Publisher</option>
+                <option value="rank">Sort by Rank</option>
+            </select>
+            <select id="rankFilter">
+                <option value="">Filter by Rank</option>
+                <option value="1">Rank 1</option>
+                <option value="2">Rank 2</option>
+                <option value="3">Rank 3</option>
+                <option value="4">Rank 4</option>
+                <option value="5">Rank 5</option>
+                <option value="5">Rank 5</option>
+                <option value="6">Rank 6</option>
+                <option value="7">Rank 7</option>
+                <option value="8">Rank 8</option>
+                <option value="9">Rank 9</option>
+                <option value="10">Rank 10</option>
+                <option value="11">Rank 11</option>
+                <option value="12">Rank 12</option>
+                <option value="13">Rank 13</option>
+                <option value="14">Rank 14</option>
+                <option value="15">Rank 15</option>
+            </select>
+            <button id="fetchButton">Fetch Books</button>
+        </div>
+        
+
+        <div id="loading" class="loading">Loading...</div>
+
+        <div id="bookList" class="book-list"></div>
+        
+        <div id="pagination" class="pagination"></div>
+        
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <!-- <main>
+        <h1>Online Courses</h1>
+        <button id="fetch-courses">Fetch Courses</button>
+        <div id="courses-container"></div>
+        <br>
+        <div>
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="title">Title</option>
+                <option value="rating">Rating</option>
+                <option value="price">Price</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="filter">Filter by category:</label>
+            <select id="filter">
+                <option value="">All</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Python">Python</option>                
+                <option value="Data Science">Data Science</option>
+                <option value="Java Programming">Java Programming</option>
+            </select>
+        </div>
+        <div id="course-list"></div>
+        <div id="pagination"></div>
+    </main> -->
+    <script src="script.js"></script>
+</body>
+</html>

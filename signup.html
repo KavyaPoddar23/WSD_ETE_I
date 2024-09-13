@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Courses</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="courses.html">Course Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Sign Up for a Course</h1>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <div id="name-validation" class="validation-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <div id="email-validation" class="validation-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="8">
+                <div id="password-validation" class="validation-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <div id="confirm-password-validation" class="validation-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <div id="dob-validation" class="validation-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Python">Python</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Java Programming">Java Programming</option>
+                </select>
+                <div id="course-validation" class="validation-message"></div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <script src="signup.js"></script>
+</body>
+</html>
